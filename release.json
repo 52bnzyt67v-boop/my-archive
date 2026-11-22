@@ -1,0 +1,24 @@
+{
+  "name": "MY ARCHIVE",
+  "version": "9.3.0",
+  "releaseName": "Stabilization: corrupt-storage protection, stale-tab write guard, safe task/preference edits and read-only integrity report",
+  "dataKey": "myarchive_proto_2026_v1",
+  "backupSchema": 11,
+  "changes": [
+    "16 additional collection templates (85 default collections total)",
+    "Nested folders with safe move, rename, delete and unfiled handling",
+    "Record-folder assignments preserved in full backup",
+    "Searchable global new-record menu for all collections and core types",
+    "Larger task text and redundant sort label removed",
+    "Stop writes on corrupt/unreadable localStorage; original bytes recoverable",
+    "Stop old tabs from overwriting external writes",
+    "Rollback task toggles and selected preferences if saving fails",
+    "Read-only record/folder consistency check",
+    "Backup appVersion 9.3"
+  ],
+  "features": [
+    "uniform-collection-detail",
+    "kitsch-user-entries-font",
+    "sticky-data-shortcuts"
+  ]
+}
