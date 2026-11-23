@@ -1,7 +1,7 @@
 {
   "name": "MY ARCHIVE",
   "short_name": "MY ARCHIVE",
-  "description": "Personal records, calendar, collections and protected backups",
+  "description": "Personal record archive, calendar, collections and protected backups",
   "id": "./index.html",
   "start_url": "./index.html",
   "scope": "./",
